@@ -1,0 +1,33 @@
+/* Root kontrollerar värden som jag kan använda likt variabler i Figma*/
+:root {
+        --color-purple: #9b59b6;
+        --color-background: #ded8e0;
+        --color-box: #47334e;
+        --color-text: #000000;
+
+        --font-heading: 'Libre Caslon Condensed', sans-serif;
+        --font-body: 'Libre Caslon Condensed', sans-serif;
+        
+        --max-width: 1400;
+        --spacing: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+/* header och menu */
+
+/* typography */
+h1 {
+    font-family: var (--font-heading); ;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 auto 16px;
+}
+
+section {
+    padding: 0 auto;
+    
+}
